@@ -1,0 +1,6 @@
+1. 
+use vk;
+ALTER TABLE friend_requests ALTER COLUMN status SET DEFAULT 'requested';
+ALTER TABLE users RENAME COLUMN create_at TO created_at;
+2. Таблицу likes (у меня это разные таблицы post_response, users_response, photo_respons) заполнил при выполнении третьего практического задания.
+3. В качестве курсовой пока выбрал проектирование БД для сервиса https://www.ticketland.ru/
