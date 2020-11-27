@@ -23,3 +23,4 @@ select dayname(concat(year(now()),'-',month(birthday_at),'-',day(birthday_at))) 
 from users 
 group by dayname(concat(year(now()),'-',month(birthday_at),'-',day(birthday_at)))
 order by dayofweek (concat(year(now()),'-',month(birthday_at),'-',day(birthday_at)));
+
