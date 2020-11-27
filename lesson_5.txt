@@ -19,8 +19,8 @@ select avg(floor(datediff(now(),birthday_at)/365.25)) from users;
 
 Задание 2.2
 SET lc_time_names = 'ru_RU';
-select dayname(concat(year(now()),'-',month(birthday_at),'-',day(birthday_at))) as dname, count(*) 
+select dayname(concat(year(now()),'-',month(birthday_at),'-',day(birthday_at))) as dname, count(*)
 from users 
-group by dayname(concat(year(now()),'-',month(birthday_at),'-',day(birthday_at)))
-order by dayofweek (concat(year(now()),'-',month(birthday_at),'-',day(birthday_at)));
+group by dname
+order by dname;
 
