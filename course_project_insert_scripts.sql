@@ -1,5 +1,7 @@
+-- скрипты созданы с помощью сервиса http://filldb.info/
 
 SET FOREIGN_KEY_CHECKS=0;
+
 INSERT INTO `actors` VALUES ('1','Garnett Durgan','1','Earum accusantium eum est ipsa voluptates praesentium. Ex sit ea sint sint qui debitis. Vero qui incidunt non eum est nisi error facere. Quos saepe qui animi quia minus dolores nam.'),
 ('2','Hailee Leffler','2','Sapiente quasi eius ut. Harum vitae tenetur doloremque iure. Voluptatem voluptas possimus molestiae omnis. Inventore labore recusandae ipsam. Optio natus eaque dignissimos repudiandae.'),
 ('3','Blanche Barton','3','Eos et deleniti mollitia et nihil aut quia odit. Enim aut quasi vel non eos. Quo voluptas quia enim.'),

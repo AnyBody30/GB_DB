@@ -237,3 +237,4 @@ CREATE TABLE tickets (
   foreign key (timetable_id) references timetables (id),
   foreign key (platform_part_id) references platform_parts (id)
     ) comment 'Таблица билетов';
+
